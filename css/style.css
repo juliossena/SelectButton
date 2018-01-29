@@ -1,0 +1,39 @@
+
+body {
+	padding: 20px;
+	text-align: center;
+}
+
+.radioHidden {
+	display: none;
+}
+
+.labelRadio {
+	display:inline-block;
+	transition: 0.5s;
+	cursor: pointer;
+	font-family: 'verdana';
+	width: 150px;
+	padding: 10px;
+	border: 2px solid #1C4592;
+	background-color: white;
+	color: #1C4592;
+}
+
+.labelRadio:hover {
+	background-color: #1C4592;
+	color: white;
+	
+}
+
+.labelRadioSelected {
+	display:inline-block;
+	transition: 0.5s;
+	cursor: pointer;
+	font-family: 'verdana';
+	width: 150px;
+	padding: 10px;
+	border: 2px solid #1C4592;
+	background-color: #1C4592;
+	color: white;
+}
